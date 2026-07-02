@@ -30,13 +30,13 @@ Prioridad: 🔴 Alta · 🟠 Media · 🟢 Baja
 
 ## Estado actual (resumen rápido)
 
-**Última actualización:** _(completar en cada sesión)_
+**Última actualización:** 2026-07-01
 
 **Fase activa:** Fase 0 — Fundamentos y configuración
 
-**Resumen:** Proyecto recién definido a nivel de plan/arquitectura. Aún no hay MCP instalado (Unity, Supabase, GitHub). Existe avance previo en Unity (UI + scripts de Dimensión 1 y 2) que todavía no está conectado a ningún backend.
+**Resumen:** Los 3 MCP (Unity, GitHub, Supabase) ya están conectados y funcionando. Existe proyecto Supabase "Void" creado (`ca-central-1`, activo). El repo se reestructuró como monorepo sectorizado: proyecto Unity movido a `unity/`, raíz reservada para docs y futuras carpetas `dashboard/` y `supabase/`. Repo inicializado, `.gitignore` configurado, conectado y pusheado a `https://github.com/Seb0401/void.git` (rama `main`). Existe avance previo en Unity (UI + scripts de Dimensión 1 y 2) que todavía no está conectado a ningún backend.
 
-**Siguiente paso inmediato:** Instalar y configurar los MCP necesarios (ver Fase 0.1) antes de que Claude Code pueda operar directamente sobre Unity/Supabase/repo.
+**Siguiente paso inmediato:** Definir el modelo de datos base (0.2) y auditar el código Unity existente de Dimensión 1 y 2 (Fase 1).
 
 ---
 
@@ -48,10 +48,10 @@ Estado de fase: 🟨 En progreso
 
 > ⚠️ Nada de lo que dependa de MCP puede ejecutarse hasta completar esto. Hasta entonces, el trabajo se hace en modo manual (compartiendo código/archivos directamente en la conversación).
 
-- [ ] 🔴 Instalar MCP de GitHub (o del repo que se use) — permite que Claude Code lea/edite el repo directamente
-- [ ] 🔴 Instalar MCP de Unity (puente Unity Editor ↔ Claude Code) — permite crear/editar scripts, escenas y prefabs sin copiar/pegar manualmente
-- [ ] 🟠 Instalar MCP de Supabase — permite gestionar schema y datos de la base directamente desde la conversación
-- [ ] 🟢 Evaluar si conviene monorepo (Unity + backend + dashboard en un repo) o repos separados — definir antes de conectar el MCP de GitHub
+- [x] 🔴 Instalar MCP de GitHub — conectado como `Seb0401`
+- [x] 🔴 Instalar MCP de Unity (puente Unity Editor ↔ Claude Code) — conectado (`UnityMCP`, HTTP local `127.0.0.1:8080`)
+- [x] 🟠 Instalar MCP de Supabase — conectado
+- [x] 🟢 Evaluar si conviene monorepo o repos separados — decidido: **monorepo sectorizado** (`unity/`, `dashboard/`, `supabase/` en `Seb0401/void`)
 
 ### 0.2 — Modelo de datos base
 
@@ -63,12 +63,12 @@ Estado de fase: 🟨 En progreso
 
 ### 0.3 — Backend
 
-- [ ] 🔴 Crear proyecto en Supabase
+- [x] 🔴 Crear proyecto en Supabase — proyecto "Void" (`ca-central-1`) activo
 - [ ] 🔴 Configurar Auth (jugadores + rol Game Master)
 - [ ] 🟠 Configurar Row Level Security básica (jugador solo ve/edita lo suyo, GM ve todo)
 - [ ] 🟢 Configurar Storage para assets (cartas, sprites, íconos)
 
-**Bloqueadores de esta fase:** ninguno técnico — depende de tiempo disponible y de instalar los MCP.
+**Bloqueadores de esta fase:** ninguno.
 
 ---
 
@@ -148,7 +148,6 @@ Estado de fase: ⬜ No iniciado — depende de tener al menos 2 dimensiones juga
 ## Backlog / Decisiones pendientes
 
 - ❓ Dirección de arte final (depende de Fase 3)
-- ❓ Monorepo vs. repos separados
 - ❓ Si se migra de Unity a otro engine en algún punto (por ahora: no, pero queda abierto)
 - ❓ Alcance real del documento "Dimensiones" — el usuario confirmó que **puede seguir evolucionando**, así que tratarlo como versión viva, no como spec cerrada
 
@@ -156,7 +155,7 @@ Estado de fase: ⬜ No iniciado — depende de tener al menos 2 dimensiones juga
 
 ## Bloqueadores actuales
 
-- 🔒 **MCP no instalado** (Unity, GitHub, Supabase) — bloquea que Claude Code opere directamente sobre el proyecto. Hasta que se resuelva, el trabajo técnico se hace compartiendo archivos/código manualmente en la conversación.
+Ninguno.
 
 ---
 
@@ -164,5 +163,6 @@ Estado de fase: ⬜ No iniciado — depende de tener al menos 2 dimensiones juga
 
 | Fecha | Cambio |
 |---|---|
-| _(hoy)_ | Documento creado. Plan de arquitectura definido (Unity móvil + Supabase + dashboard Next.js). Fase 0 iniciada. |
+| 2026-07-01 | Documento creado. Plan de arquitectura definido (Unity móvil + Supabase + dashboard Next.js). Fase 0 iniciada. |
+| 2026-07-01 | MCP de GitHub, Unity y Supabase conectados. Proyecto Supabase "Void" creado. Repo reestructurado como monorepo (`unity/` para el proyecto Unity, raíz para docs), inicializado y pusheado a `https://github.com/Seb0401/void.git`. |
 
