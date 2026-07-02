@@ -443,7 +443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 304679940}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -553,8 +553,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2006296738}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Disminuir
         m_Mode: 3
@@ -966,8 +966,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1141,8 +1141,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: U
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1411,8 +1411,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10/10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 535253351}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -1704,7 +1704,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1935977557}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -1817,7 +1817,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811307238}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -2160,8 +2160,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: He
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2295,8 +2295,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2416,15 +2416,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 166237823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 50
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 2039734135}
-  barra: {fileID: 738717190}
-  Button: {fileID: 873995468}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &166749881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,8 +2663,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Morado
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2822,7 +2822,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1838649714}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -3008,8 +3008,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: O
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3250,7 +3250,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1316136633}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnAbrir
         m_Mode: 1
@@ -3262,7 +3262,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Desactivar
         m_Mode: 1
@@ -3372,8 +3372,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Rosado
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3507,8 +3507,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resistencia Venenosa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3666,7 +3666,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 535253351}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -3884,7 +3884,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243482631}
-  - component: {fileID: 243482632}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -3912,24 +3911,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &243482632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243482630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab99f354d508cdb438db94658ba6e3a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ElemActual: {fileID: 1848774743}
-  canvaActual: {fileID: 715727276}
-  Elem1: {fileID: 543708998}
-  canva1: {fileID: 602241235}
-  Elem2: {fileID: 72576706}
-  canva2: {fileID: 1132961473}
 --- !u!1 &265846308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4097,7 +4078,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1316136633}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnCerrar
         m_Mode: 1
@@ -4109,7 +4090,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Activar
         m_Mode: 1
@@ -4222,7 +4203,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 393229367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -4352,8 +4333,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4473,13 +4454,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 286109477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eacbc83423b2a024d9db4f93acc28651, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
-  NroActual: 0
-  textoVida: {fileID: 1618468438}
-  barra: {fileID: 1232512700}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
+  limiteInferior: 0
+  limiteSuperior: 100
 --- !u!1 &288512659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,15 +4752,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 304679938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00e32fa404ad0146824d5fa69d88b68, type: 3}
+  m_Script: {fileID: 11500000, guid: 67c2a859aa96ce24dad0dc54da68e9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 20
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 1497263973}
-  barra: {fileID: 1950304636}
-  Button: {fileID: 52562859}
-  accion: {fileID: 1778967708}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  accion: {fileID: 0}
 --- !u!1 &312801108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4789,7 +4770,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312801110}
-  - component: {fileID: 312801109}
   m_Layer: 0
   m_Name: Controlador_Moleculas
   m_TagString: Untagged
@@ -4797,20 +4777,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &312801109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312801108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28fee76ac1283c1408eef3069bbaedb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pantalla: {fileID: 234503433}
-  canvas: {fileID: 2103943460}
 --- !u!4 &312801110
 Transform:
   m_ObjectHideFlags: 0
@@ -4886,8 +4852,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5061,8 +5027,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5280,8 +5246,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 100/100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5499,8 +5465,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Resistencia Electrica
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5662,15 +5628,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 393229365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00e32fa404ad0146824d5fa69d88b68, type: 3}
+  m_Script: {fileID: 11500000, guid: 67c2a859aa96ce24dad0dc54da68e9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 15
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 1460721850}
-  barra: {fileID: 2134060583}
-  Button: {fileID: 280300536}
-  accion: {fileID: 1968945691}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  accion: {fileID: 0}
 --- !u!1 &397822804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5717,11 +5683,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 397822804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 1443675829}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &407616941
 GameObject:
   m_ObjectHideFlags: 0
@@ -5846,7 +5812,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860745293}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -5956,8 +5922,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6323,7 +6289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 923151538}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -6527,7 +6493,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 475440133}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Accion
         m_Mode: 1
@@ -6772,8 +6738,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Rn
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6856,7 +6822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475440134}
-  - component: {fileID: 475440133}
+  - component: {fileID: 475440135}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -6864,24 +6830,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &475440133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475440132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00e32fa404ad0146824d5fa69d88b68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NroMax: 10
-  NroActual: 0
-  textoVida: {fileID: 597269926}
-  barra: {fileID: 2020339651}
-  Button: {fileID: 2119709983}
-  accion: {fileID: 445133870}
 --- !u!224 &475440134
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6902,6 +6850,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &475440135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475440132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c2a859aa96ce24dad0dc54da68e9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NroMax: 0
+  NroActual: 0
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  accion: {fileID: 0}
 --- !u!1 &475930298
 GameObject:
   m_ObjectHideFlags: 0
@@ -6948,15 +6914,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 475930298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 10
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 1463386578}
-  barra: {fileID: 596824422}
-  Button: {fileID: 1068742693}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &476637871
 GameObject:
   m_ObjectHideFlags: 0
@@ -7017,8 +6983,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fuego
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7295,8 +7261,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 50/50
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8002,8 +7968,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Natura
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8118,11 +8084,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 535253349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1038245948}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &542845637
@@ -8224,7 +8190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &543708999
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8444,8 +8410,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: N
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8565,13 +8531,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 561941370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eacbc83423b2a024d9db4f93acc28651, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
-  NroActual: 0
-  textoVida: {fileID: 1187580014}
-  barra: {fileID: 664489806}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
+  limiteInferior: 0
+  limiteSuperior: 100
 --- !u!1 &565112291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8800,8 +8766,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: C
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9162,7 +9128,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 773459875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnCerrar
         m_Mode: 1
@@ -9174,7 +9140,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Activar
         m_Mode: 1
@@ -9371,8 +9337,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9615,8 +9581,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10/10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10171,7 +10137,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2006296738}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -10281,8 +10247,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10416,8 +10382,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10551,8 +10517,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10666,8 +10632,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20/20
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10807,15 +10773,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 640505668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 67269193}
-  barra: {fileID: 514647510}
-  Button: {fileID: 1206648801}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &659971891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11294,8 +11260,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hielo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11598,8 +11564,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Azul
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11682,7 +11648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 750389672}
-  - component: {fileID: 750389671}
+  - component: {fileID: 750389673}
   m_Layer: 0
   m_Name: Controlador_General
   m_TagString: Untagged
@@ -11690,21 +11656,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &750389671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750389670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be5403d64384ed4e94affeb070d25d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaje: {fileID: 204789342}
-  configuracion: {fileID: 1540461502}
-  Otros: {fileID: 1105090277}
 --- !u!4 &750389672
 Transform:
   m_ObjectHideFlags: 0
@@ -11720,6 +11671,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750389673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750389670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95a0f4088275a441b1a99f9fbe9f3cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomEscena: 
+  sigEscena: 
+  panelGanar: {fileID: 0}
 --- !u!1 &752788249
 GameObject:
   m_ObjectHideFlags: 0
@@ -11804,7 +11770,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 561941372}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Disminuir
         m_Mode: 3
@@ -11938,7 +11904,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1678955667}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -12034,11 +12000,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 762360679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 2111751740}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &762407027
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,7 +12014,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 762407028}
-  - component: {fileID: 762407029}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -12076,24 +12041,6 @@ RectTransform:
   m_AnchoredPosition: {x: -89.5874, y: 0.86273193}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &762407029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762407027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab99f354d508cdb438db94658ba6e3a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ElemActual: {fileID: 602241235}
-  canvaActual: {fileID: 543708998}
-  Elem1: {fileID: 1848774743}
-  canva1: {fileID: 715727276}
-  Elem2: {fileID: 72576706}
-  canva2: {fileID: 1132961473}
 --- !u!1 &765487812
 GameObject:
   m_ObjectHideFlags: 0
@@ -12140,15 +12087,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 765487812}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 10
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 92086259}
-  barra: {fileID: 1981644545}
-  Button: {fileID: 900504678}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &773459874
 GameObject:
   m_ObjectHideFlags: 0
@@ -12158,7 +12105,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 773459876}
-  - component: {fileID: 773459875}
   m_Layer: 0
   m_Name: Controlador_Cristales
   m_TagString: Untagged
@@ -12166,20 +12112,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &773459875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773459874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28fee76ac1283c1408eef3069bbaedb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pantalla: {fileID: 1114567143}
-  canvas: {fileID: 1323493668}
 --- !u!4 &773459876
 Transform:
   m_ObjectHideFlags: 0
@@ -12491,8 +12423,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Verde
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12659,7 +12591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811307239}
-  - component: {fileID: 811307238}
+  - component: {fileID: 811307240}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -12667,24 +12599,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &811307238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811307237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00e32fa404ad0146824d5fa69d88b68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NroMax: 25
-  NroActual: 0
-  textoVida: {fileID: 483134355}
-  barra: {fileID: 930849679}
-  Button: {fileID: 115690445}
-  accion: {fileID: 2051685057}
 --- !u!224 &811307239
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12705,6 +12619,24 @@ RectTransform:
   m_AnchoredPosition: {x: 71.53714, y: 0.7774391}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &811307240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811307237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c2a859aa96ce24dad0dc54da68e9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NroMax: 0
+  NroActual: 0
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  accion: {fileID: 0}
 --- !u!1 &812083129
 GameObject:
   m_ObjectHideFlags: 0
@@ -12993,7 +12925,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 166237825}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -13005,7 +12937,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -13441,7 +13373,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 765487814}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -13453,7 +13385,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -13563,8 +13495,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Viento
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13698,8 +13630,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "E\xF3n\nH\xE1dico"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13833,8 +13765,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Celeste
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13949,11 +13881,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 923151536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1643139656}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &930849678
@@ -14280,8 +14212,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: S
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14401,13 +14333,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 966657669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eacbc83423b2a024d9db4f93acc28651, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
-  NroActual: 0
-  textoVida: {fileID: 1120176325}
-  barra: {fileID: 1089287441}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
+  limiteInferior: 0
+  limiteSuperior: 100
 --- !u!1 &971318271
 GameObject:
   m_ObjectHideFlags: 0
@@ -14552,8 +14484,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Resistencia \xCDgnea"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14636,7 +14568,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 973965373}
-  - component: {fileID: 973965374}
   m_Layer: 5
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -14664,24 +14595,6 @@ RectTransform:
   m_AnchoredPosition: {x: -182.28897, y: -0.0000718832}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &973965374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973965372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab99f354d508cdb438db94658ba6e3a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ElemActual: {fileID: 72576706}
-  canvaActual: {fileID: 1132961473}
-  Elem1: {fileID: 1848774743}
-  canva1: {fileID: 715727276}
-  Elem2: {fileID: 602241235}
-  canva2: {fileID: 543708998}
 --- !u!1 &975543980
 GameObject:
   m_ObjectHideFlags: 0
@@ -14766,7 +14679,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1715723745}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -15246,7 +15159,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 773459875}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnAbrir
         m_Mode: 1
@@ -15258,7 +15171,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Desactivar
         m_Mode: 1
@@ -15508,8 +15421,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15649,11 +15562,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039117283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 479925458}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &1041706817
 GameObject:
   m_ObjectHideFlags: 0
@@ -15790,8 +15703,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15948,7 +15861,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 475930300}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -15960,7 +15873,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -16238,8 +16151,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: H
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16586,8 +16499,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2S0E0B7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16761,8 +16674,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16979,7 +16892,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1132961474
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17187,7 +17100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1134729893
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17317,8 +17230,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17452,8 +17365,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Naranja
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18003,8 +17916,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18290,7 +18203,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 966657671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -18423,7 +18336,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 640505670}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -18435,7 +18348,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -18545,8 +18458,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tierra
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18704,7 +18617,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1678955667}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -19066,8 +18979,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19385,8 +19298,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19540,8 +19453,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Amarillo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19656,11 +19569,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262450359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1639963597}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1270595769
@@ -19723,8 +19636,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Marr\xF3n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19882,7 +19795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 561941372}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -20016,7 +19929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 966657671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Disminuir
         m_Mode: 3
@@ -20150,7 +20063,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 286109479}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Disminuir
         m_Mode: 3
@@ -20330,15 +20243,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298015432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 1913763230}
-  barra: {fileID: 126204846}
-  Button: {fileID: 1635489496}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &1301718987
 GameObject:
   m_ObjectHideFlags: 0
@@ -20423,7 +20336,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1935977557}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -20533,8 +20446,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Oscuridad
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20668,8 +20581,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Parte 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20752,7 +20665,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1316136634}
-  - component: {fileID: 1316136633}
+  - component: {fileID: 1316136635}
   m_Layer: 0
   m_Name: Controlador_Personaje
   m_TagString: Untagged
@@ -20760,20 +20673,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1316136633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316136632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28fee76ac1283c1408eef3069bbaedb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pantalla: {fileID: 1134882683}
-  canvas: {fileID: 1134729892}
 --- !u!4 &1316136634
 Transform:
   m_ObjectHideFlags: 0
@@ -20789,6 +20688,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316136635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316136632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73655d86f3f77bd49bc70ca93ba2672e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpMax: 0
+  HpActual: 0
+  textoVida: {fileID: 0}
+  objetoPersonaje: {fileID: 0}
+  imagenBarraHpActual: {fileID: 0}
+  contenedorHp: {fileID: 0}
+  hpUnidades: []
+  hpUnidadesActivas: []
+  invulnerable: 0
+  tiempoInvulnerable: 0
+  sprites: []
 --- !u!1 &1323493668
 GameObject:
   m_ObjectHideFlags: 0
@@ -20804,7 +20726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1323493669
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20979,8 +20901,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Agua
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21063,7 +20985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1348777183}
-  - component: {fileID: 1348777182}
+  - component: {fileID: 1348777184}
   m_Layer: 5
   m_Name: ContoladorContador
   m_TagString: Untagged
@@ -21071,21 +20993,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1348777182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348777181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa3439bd841e35f429760c4182f0469f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NroMax: 100
-  NroActual: 0
-  textoVida: {fileID: 381464310}
 --- !u!224 &1348777183
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21106,6 +21013,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1348777184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348777181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf52ecc7bd956f4aa1e557e56f16bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NroMax: 0
+  NroActual: 0
+  textoVida: {fileID: 0}
 --- !u!1 &1348951703
 GameObject:
   m_ObjectHideFlags: 0
@@ -21373,8 +21295,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Luz
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21532,7 +21454,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 243482632}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Selector_Tema, Assembly-CSharp
         m_MethodName: EscogerTema
         m_Mode: 1
@@ -21709,7 +21631,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1262450361}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -21843,7 +21765,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1838649714}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -21953,8 +21875,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Personajes
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22351,8 +22273,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10/10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22492,11 +22414,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1462890324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 2088494827}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &1463386576
 GameObject:
   m_ObjectHideFlags: 0
@@ -22557,8 +22479,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10/10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22716,7 +22638,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 762407029}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Selector_Tema, Assembly-CSharp
         m_MethodName: EscogerTema
         m_Mode: 1
@@ -22812,15 +22734,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1478691198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b62173e61b0f44c948ae63aad612c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d80a4fa091f84438f37daf1741ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 20
+  NroMax: 0
   NroActual: 0
-  textoVida: {fileID: 634685875}
-  barra: {fileID: 812083131}
-  Button: {fileID: 2135597514}
-  conteoSinBarra: {fileID: 1348777182}
+  textoVida: {fileID: 0}
+  barra: {fileID: 0}
+  Button: {fileID: 0}
+  conteoSinBarra: {fileID: 0}
 --- !u!1 &1481370629
 GameObject:
   m_ObjectHideFlags: 0
@@ -22905,7 +22827,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860745293}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: DisminuirValor
         m_Mode: 1
@@ -22995,8 +22917,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20/20
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23174,7 +23096,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 973965374}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Selector_Tema, Assembly-CSharp
         m_MethodName: EscogerTema
         m_Mode: 1
@@ -23924,8 +23846,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '-'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24123,8 +24045,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24278,8 +24200,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24548,8 +24470,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24706,7 +24628,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1298015434}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -24718,7 +24640,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -24808,8 +24730,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24943,8 +24865,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25424,7 +25346,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 312801109}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnCerrar
         m_Mode: 1
@@ -25436,7 +25358,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Activar
         m_Mode: 1
@@ -25611,11 +25533,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1678955665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1260094066}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1684319294
@@ -25778,7 +25700,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 286109479}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo2, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -25996,8 +25918,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26267,11 +26189,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1715723742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1712009092}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1747917696
@@ -26601,7 +26523,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 312801109}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AbrirCerrar, Assembly-CSharp
         m_MethodName: BtnAbrir
         m_Mode: 1
@@ -26613,7 +26535,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 750389671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ActivarDesactivarUI, Assembly-CSharp
         m_MethodName: Desactivar
         m_Mode: 1
@@ -26726,7 +26648,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 304679940}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Accion
         m_Mode: 1
@@ -26836,8 +26758,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27147,11 +27069,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1837147545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 1961391909}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &1838148698
 GameObject:
   m_ObjectHideFlags: 0
@@ -27235,11 +27157,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1838649712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1596602545}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1848774743
@@ -27320,11 +27242,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1860745291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 1804603299}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1861056626
@@ -27411,7 +27333,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1715723745}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -28115,8 +28037,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5/5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28250,8 +28172,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Resistencia P\xE9trica"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28366,11 +28288,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1935977555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a8776c18a321341b8218be568d1b22, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadroTexto: {fileID: 53725861}
-  objetoActivar: {fileID: 295209057}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
   limiteInferior: 0
   limiteSuperior: 100
 --- !u!1 &1942633895
@@ -28823,7 +28745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 393229367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Accion
         m_Mode: 1
@@ -28939,11 +28861,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1971019804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 1224141751}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &1977827912
 GameObject:
   m_ObjectHideFlags: 0
@@ -29004,8 +28926,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Rojo
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29125,11 +29047,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1978409870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 421852919}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &1981644543
 GameObject:
   m_ObjectHideFlags: 0
@@ -29319,8 +29241,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: P
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29568,13 +29490,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2006296736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eacbc83423b2a024d9db4f93acc28651, type: 3}
+  m_Script: {fileID: 11500000, guid: 40051a92fede41946b59ed1c21e3e07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NroMax: 5
-  NroActual: 0
-  textoVida: {fileID: 1596882487}
-  barra: {fileID: 1553684794}
+  cuadroTexto: {fileID: 0}
+  objetoActivar: {fileID: 0}
+  limiteInferior: 0
+  limiteSuperior: 100
 --- !u!1 &2020339650
 GameObject:
   m_ObjectHideFlags: 0
@@ -29959,8 +29881,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 50/50
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30080,11 +30002,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2044992500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 607847167}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
 --- !u!1 &2051685057
 GameObject:
   m_ObjectHideFlags: 0
@@ -30168,7 +30090,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811307238}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Accion
         m_Mode: 1
@@ -30596,7 +30518,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1262450361}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -30730,7 +30652,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 923151538}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Casillas_Contador, Assembly-CSharp
         m_MethodName: AumentarValor
         m_Mode: 1
@@ -31006,8 +30928,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cristales
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
-  m_sharedMaterial: {fileID: 2874923515893497657, guid: 12dc75ccd101f5044a617562c7e364bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31144,7 +31066,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 475440133}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo1, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -31426,7 +31348,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1478691200}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Conteo, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -31438,7 +31360,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1348777182}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ConteoSinBarra, Assembly-CSharp
         m_MethodName: Aumentar
         m_Mode: 3
@@ -31649,8 +31571,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2146604382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79aa9f77ad9002844813ead168cd812b, type: 3}
+  m_Script: {fileID: 11500000, guid: 174609b1c9189834d9681ab85de54188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boton: {fileID: 1356151415}
-  objetoConImagen: {fileID: 204789342}
+  boton: {fileID: 0}
+  objetoConImagen: {fileID: 0}
