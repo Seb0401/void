@@ -1,0 +1,168 @@
+# Void — Roadmap y Seguimiento del Proyecto
+
+> Este documento es la fuente de verdad del estado del proyecto. Vive en la raíz del repo (o de cada repo si se separan). Se actualiza en cada sesión de trabajo, no solo se lee.
+
+---
+
+## Cómo usar este documento con Claude Code
+
+- Al empezar una sesión, pedir a Claude Code que **lea este archivo primero** antes de tocar código.
+- Cada vez que se termina una tarea, marcarla `[x]` y mover el estado de la fase si corresponde.
+- Cada vez que aparece un bloqueador o una decisión pendiente nueva, se anota en su sección — no se deja flotando en la conversación.
+- La sección "Estado actual" se actualiza al final de cada sesión con 2-3 líneas de qué se hizo y qué sigue.
+- No se borran tareas completadas ni fases viejas — se archivan al final del documento para tener histórico.
+
+---
+
+## Leyenda de estados
+
+| Símbolo | Significado |
+|---|---|
+| ⬜ | No iniciado |
+| 🟨 | En progreso |
+| ✅ | Completado |
+| 🔒 | Bloqueado (ver sección Bloqueadores) |
+| ❓ | Pendiente de decisión |
+
+Prioridad: 🔴 Alta · 🟠 Media · 🟢 Baja
+
+---
+
+## Estado actual (resumen rápido)
+
+**Última actualización:** _(completar en cada sesión)_
+
+**Fase activa:** Fase 0 — Fundamentos y configuración
+
+**Resumen:** Proyecto recién definido a nivel de plan/arquitectura. Aún no hay MCP instalado (Unity, Supabase, GitHub). Existe avance previo en Unity (UI + scripts de Dimensión 1 y 2) que todavía no está conectado a ningún backend.
+
+**Siguiente paso inmediato:** Instalar y configurar los MCP necesarios (ver Fase 0.1) antes de que Claude Code pueda operar directamente sobre Unity/Supabase/repo.
+
+---
+
+## Fase 0 — Fundamentos y configuración
+
+Estado de fase: 🟨 En progreso
+
+### 0.1 — Prerrequisitos de herramientas (MCP no instalado aún)
+
+> ⚠️ Nada de lo que dependa de MCP puede ejecutarse hasta completar esto. Hasta entonces, el trabajo se hace en modo manual (compartiendo código/archivos directamente en la conversación).
+
+- [ ] 🔴 Instalar MCP de GitHub (o del repo que se use) — permite que Claude Code lea/edite el repo directamente
+- [ ] 🔴 Instalar MCP de Unity (puente Unity Editor ↔ Claude Code) — permite crear/editar scripts, escenas y prefabs sin copiar/pegar manualmente
+- [ ] 🟠 Instalar MCP de Supabase — permite gestionar schema y datos de la base directamente desde la conversación
+- [ ] 🟢 Evaluar si conviene monorepo (Unity + backend + dashboard en un repo) o repos separados — definir antes de conectar el MCP de GitHub
+
+### 0.2 — Modelo de datos base
+
+- [ ] 🔴 Definir schema inicial: jugador, personaje, dimensión, stat, hoja_de_personaje
+- [ ] 🔴 Definir schema de: recurso, inventario, economía (transacciones)
+- [ ] 🟠 Definir schema de: bestiario, carta
+- [ ] 🟠 Definir schema de: alianza, tratado, directiva
+- [ ] 🟢 Definir campo `sync_mode` por dimensión (tiempo real / asíncrono)
+
+### 0.3 — Backend
+
+- [ ] 🔴 Crear proyecto en Supabase
+- [ ] 🔴 Configurar Auth (jugadores + rol Game Master)
+- [ ] 🟠 Configurar Row Level Security básica (jugador solo ve/edita lo suyo, GM ve todo)
+- [ ] 🟢 Configurar Storage para assets (cartas, sprites, íconos)
+
+**Bloqueadores de esta fase:** ninguno técnico — depende de tiempo disponible y de instalar los MCP.
+
+---
+
+## Fase 1 — Vertical slice técnico (Dimensión 1 y 2)
+
+Estado de fase: ⬜ No iniciado — depende de Fase 0
+
+- [ ] 🔴 Auditar el código Unity existente de Dimensión 1 (recolección de recursos en mapa grande) y documentar qué hay hecho
+- [ ] 🔴 Auditar el código Unity existente de Dimensión 2 (cooperativo vs. jefes, cooldowns por ronda) y documentar qué hay hecho
+- [ ] 🟠 Separar lógica de reglas (cálculos, cooldowns, costos) de la UI en ambas dimensiones — paso previo obligatorio para poder migrar al backend sin reescribir todo
+- [ ] 🔴 Conectar Dimensión 1 al backend (modo asíncrono)
+- [ ] 🔴 Conectar Dimensión 2 al backend (modo tiempo real)
+- [ ] 🟠 Probar con 2+ dispositivos/jugadores simultáneos en Dimensión 2 para validar el modo tiempo real
+
+**Bloqueadores de esta fase:** requiere Fase 0 completa (backend + modelo de datos + MCP de Unity idealmente, aunque no es estrictamente obligatorio si se trabaja manual).
+
+---
+
+## Fase 2 — Dashboard GM v1
+
+Estado de fase: ⬜ No iniciado — depende de Fase 1
+
+- [ ] 🔴 Inicializar proyecto Next.js + Tailwind
+- [ ] 🔴 Conectar a Supabase (lectura de jugadores y su estado)
+- [ ] 🟠 Vista de jugadores conectados y su progreso en Dimensión 1
+- [ ] 🟠 Vista en tiempo real del estado de combate en Dimensión 2
+- [ ] 🟢 Autenticación de GM (solo el GM puede entrar al dashboard)
+
+---
+
+## Fase 3 — Prueba de pipeline de arte
+
+Estado de fase: ⬜ No iniciado — puede correr en paralelo a Fase 1/2, no depende de MCP
+
+- [ ] 🔴 Elegir un personaje de prueba (sugerido: jefe bacteria de Dimensión 2)
+- [ ] 🔴 Prototipo en pixel art (tiempo limitado, ej. 4h) — registrar tiempo real y resultado
+- [ ] 🔴 Prototipo en 2D ilustrado (mismo límite de tiempo)
+- [ ] 🔴 Prototipo en 3D low-poly (mismo límite de tiempo)
+- [ ] ❓ Decisión final de dirección de arte con base en los 3 prototipos
+- [ ] 🟢 Si se elige un estilo modular (pixel art con partes o 3D con rig compartido), definir el sistema de partes intercambiables
+
+**Nota:** esta fase es la más urgente en términos de riesgo del proyecto — es lo que el usuario identificó como el mayor desafío. Conviene no postergarla mucho aunque no dependa técnicamente de las otras fases.
+
+---
+
+## Fase 4 — Sistemas transversales reutilizables
+
+Estado de fase: ⬜ No iniciado — depende de Fase 1 y de la decisión de arte (Fase 3)
+
+- [ ] 🟠 Sistema de cartas genérico (usable por cualquier dimensión)
+- [ ] 🟠 Sistema de economía genérico (monedas, trueque, banco, préstamos)
+- [ ] 🟢 Sistema de alianzas y tratados
+- [ ] 🟢 Sistema de directivas / eventos tipo "updates"
+- [ ] 🟢 Bestiario como sistema transversal (con sub-secciones por dimensión)
+
+---
+
+## Fase 5 — Contenido y expansión
+
+Estado de fase: ⬜ No iniciado — depende de Fase 4
+
+- [ ] 🟢 Definir criterio para priorizar qué dimensiones nuevas se desarrollan primero
+- [ ] 🟢 Documentar cada nueva dimensión con: mecánica única, mapa/tablero, recursos propios, si es tiempo real o asíncrona
+
+---
+
+## Fase 6 — Playtesting
+
+Estado de fase: ⬜ No iniciado — depende de tener al menos 2 dimensiones jugables end-to-end
+
+- [ ] 🟢 Sesión de prueba con primos/hermanos
+- [ ] 🟢 Recoger feedback de balance y experiencia
+- [ ] 🟢 Iterar
+
+---
+
+## Backlog / Decisiones pendientes
+
+- ❓ Dirección de arte final (depende de Fase 3)
+- ❓ Monorepo vs. repos separados
+- ❓ Si se migra de Unity a otro engine en algún punto (por ahora: no, pero queda abierto)
+- ❓ Alcance real del documento "Dimensiones" — el usuario confirmó que **puede seguir evolucionando**, así que tratarlo como versión viva, no como spec cerrada
+
+---
+
+## Bloqueadores actuales
+
+- 🔒 **MCP no instalado** (Unity, GitHub, Supabase) — bloquea que Claude Code opere directamente sobre el proyecto. Hasta que se resuelva, el trabajo técnico se hace compartiendo archivos/código manualmente en la conversación.
+
+---
+
+## Registro de cambios
+
+| Fecha | Cambio |
+|---|---|
+| _(hoy)_ | Documento creado. Plan de arquitectura definido (Unity móvil + Supabase + dashboard Next.js). Fase 0 iniciada. |
+

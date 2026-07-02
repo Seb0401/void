@@ -1,0 +1,49 @@
+# ===== Unity (unity/) =====
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/[Mm]emoryCaptures/
+unity/.vs/
+unity/.vsconfig
+unity/*.apk
+unity/*.aab
+unity/*.unitypackage
+unity/*.app
+unity/*.csproj
+unity/*.sln
+unity/*.suo
+unity/*.user
+unity/*.userprefs
+unity/*.pidb
+unity/*.booproj
+unity/crashlytics-build.properties
+
+# Uncomment if using Unity's visual scripting asset db
+# unity/Assets/AssetStoreTools*
+
+# ===== Node / Next.js (dashboard/) =====
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/.env
+dashboard/.env.*.local
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+
+# ===== Supabase (supabase/) =====
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# ===== Claude Code =====
+.claude/settings.local.json
+
+# ===== OS / editor cruft =====
+.DS_Store
+Thumbs.db
+*.log
