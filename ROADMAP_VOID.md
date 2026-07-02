@@ -34,9 +34,9 @@ Prioridad: 🔴 Alta · 🟠 Media · 🟢 Baja
 
 **Fase activa:** Fase 0 — Fundamentos y configuración
 
-**Resumen:** Los 3 MCP (Unity, GitHub, Supabase) ya están conectados y funcionando. Existe proyecto Supabase "Void" creado (`ca-central-1`, activo). El repo se reestructuró como monorepo sectorizado: proyecto Unity movido a `unity/`, raíz reservada para docs y futuras carpetas `dashboard/` y `supabase/`. Repo inicializado, `.gitignore` configurado, conectado y pusheado a `https://github.com/Seb0401/void.git` (rama `main`). Existe avance previo en Unity (UI + scripts de Dimensión 1 y 2) que todavía no está conectado a ningún backend.
+**Resumen:** Los 3 MCP (Unity, GitHub, Supabase) ya están conectados y funcionando. Modelo de datos base (0.2) aplicado en el proyecto Supabase "Void" (`ca-central-1`) con RLS activo — ver detalle en 0.2. El repo se reestructuró como monorepo sectorizado: proyecto Unity en `unity/`, migraciones de base de datos en `supabase/migrations/`, raíz reservada para docs y la futura carpeta `dashboard/`. Repo pusheado a `https://github.com/Seb0401/void.git` (rama `main`). Existe avance previo en Unity (UI + scripts de Dimensión 1 y 2, principalmente movimiento/UI genérica) que todavía no está conectado al backend.
 
-**Siguiente paso inmediato:** Definir el modelo de datos base (0.2) y auditar el código Unity existente de Dimensión 1 y 2 (Fase 1).
+**Siguiente paso inmediato:** Configurar Auth (0.3) y auditar el código Unity existente de Dimensión 1 y 2 (Fase 1) para ver qué se puede conectar al modelo de datos ya creado.
 
 ---
 
@@ -55,17 +55,27 @@ Estado de fase: 🟨 En progreso
 
 ### 0.2 — Modelo de datos base
 
-- [ ] 🔴 Definir schema inicial: jugador, personaje, dimensión, stat, hoja_de_personaje
-- [ ] 🔴 Definir schema de: recurso, inventario, economía (transacciones)
+- [x] 🔴 Definir schema inicial: jugador, personaje, dimensión, stat, hoja_de_personaje
+- [x] 🔴 Definir schema de: recurso, inventario, economía (transacciones)
 - [ ] 🟠 Definir schema de: bestiario, carta
 - [ ] 🟠 Definir schema de: alianza, tratado, directiva
-- [ ] 🟢 Definir campo `sync_mode` por dimensión (tiempo real / asíncrono)
+- [x] 🟢 Definir campo `sync_mode` por dimensión (tiempo real / asíncrono)
+
+**Detalle del modelo base (aplicado en Supabase, migraciones en `supabase/migrations/`):**
+- `jugadores` — 1:1 con `auth.users`, se crea automáticamente vía trigger al registrarse (`rol`: `jugador` | `game_master`).
+- `dimensiones` — catálogo, incluye `sync_mode` y `activa`.
+- `personajes` — identidad base de un personaje, transversal a dimensiones.
+- `hojas_de_personaje` — instancia de un personaje dentro de una dimensión (nivel, experiencia, y un campo `datos jsonb` abierto para lo específico de cada mecánica que aún no se modela como columna).
+- `stat_definiciones` + `hoja_stats` — catálogo de stats (EAV) para poder agregar stats nuevos sin migrar el schema; `stat_definiciones.dimension_id` nulo = stat transversal.
+- `recursos`, `inventarios` (saldo por jugador), `transacciones_economia` (log inmutable, sin insert directo desde cliente — pensado para pasar por una función validada más adelante).
+- RLS activo en las 9 tablas: cada jugador ve/edita lo suyo, el GM ve todo; los catálogos son de lectura abierta y escritura solo GM.
+- Pendiente de decisión futura: cómo evoluciona `datos jsonb` de `hojas_de_personaje` hacia columnas propias a medida que se conocen mejor las mecánicas por dimensión — se dejó flexible a propósito porque el documento de Dimensiones puede seguir cambiando.
 
 ### 0.3 — Backend
 
 - [x] 🔴 Crear proyecto en Supabase — proyecto "Void" (`ca-central-1`) activo
-- [ ] 🔴 Configurar Auth (jugadores + rol Game Master)
-- [ ] 🟠 Configurar Row Level Security básica (jugador solo ve/edita lo suyo, GM ve todo)
+- [ ] 🔴 Configurar Auth (proveedor email/password, confirmaciones, etc. — la tabla `jugadores` y el trigger de auto-creación con `rol` ya están listos a nivel de datos)
+- [x] 🟠 Configurar Row Level Security básica (jugador solo ve/edita lo suyo, GM ve todo) — aplicado en las 9 tablas
 - [ ] 🟢 Configurar Storage para assets (cartas, sprites, íconos)
 
 **Bloqueadores de esta fase:** ninguno.
@@ -165,4 +175,5 @@ Ninguno.
 |---|---|
 | 2026-07-01 | Documento creado. Plan de arquitectura definido (Unity móvil + Supabase + dashboard Next.js). Fase 0 iniciada. |
 | 2026-07-01 | MCP de GitHub, Unity y Supabase conectados. Proyecto Supabase "Void" creado. Repo reestructurado como monorepo (`unity/` para el proyecto Unity, raíz para docs), inicializado y pusheado a `https://github.com/Seb0401/void.git`. |
+| 2026-07-02 | Modelo de datos base aplicado en Supabase: `jugadores`, `dimensiones`, `personajes`, `hojas_de_personaje`, `stat_definiciones`/`hoja_stats` (EAV), `recursos`, `inventarios`, `transacciones_economia`. RLS activo en las 9 tablas. Migraciones guardadas en `supabase/migrations/`. |
 
